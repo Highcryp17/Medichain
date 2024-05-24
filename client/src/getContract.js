@@ -1432,7 +1432,7 @@ var abi =
 
 
 
-var address = "0xE6Fa599a4BF7B67Ee9E6b053ce6667c7f4c154A8";
+var address = "0x0000000000000000000000000000000000000000";
 
 const kalp = new web3.eth.Contract(abi, address);
 

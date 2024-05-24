@@ -121,7 +121,7 @@ const HealthcareLogin = () => {
       method: "eth_requestAccounts",
     }).then((data) => {
       console.log("current metamask = ", data)
-      if (data[0].toLowerCase() == "0x2155aFFA7010845EBECb2efa0A724A532091DcD1".toLowerCase()) {
+      if (data[0].toLowerCase() == "0x0000000000000000000000000000000000000000".toLowerCase()) {
         setCurrentHealthcare(data[0])
         return <Navigate to="/" />
       }
